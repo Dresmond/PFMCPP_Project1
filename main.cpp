@@ -31,91 +31,131 @@ arm.extend();
 arm.flex();
 arm.rotateCounterClockwise(); //demonstrates CamelCase
 
-/*
- 1)
- Noun:
- action 1:
- action 2:
- action 3:
- */
-
 
 /*
- 2)
- Noun:
- action 1:
- action 2:
- action 3:
- */
-
+1)
+Noun:        elevator      
+action 1:    go up one floor from current position
+action 2:    go down one floor from current position
+action 3:    open elevator doors 
+Action 4;    close elevator doors 
+*/
+ elevator.goUpOneFloor();
+ elevator.goDownOneFloor();
+ elevator.openDoors();
+ elevator.closeDoors();
 /*
- 3)
- Noun:
- action 1:
- action 2:
- action 3:
- */
-
-
+2)
+Noun:       chordPlayer
+action 1:   play minor chord
+action 2:   play major chord
+action 3:   play dominant chord
+action 4:   play chord progression
+*/
+ chordPlayer.playMinor();
+ chordPlayer.playMajor();
+ chordPlayer.playDominant();
+ chordPlayer.playProgression();
 /*
- 4)
- Noun:
- action 1:
- action 2:
- action 3:
- */
-
+3)
+Noun:       sound
+action 1:   play sound
+action 2:   mute sound
+action 3:   play sound louder
+action 4:   play sound quieter  
+*/
+ sound.play();
+ sound.mute();
+ sound.louder();
+ sound.quieter();
 /*
- 5)
- Noun:
- action 1:
- action 2:
- action 3:
- */
-
-
+4)
+Noun:        mechanicalEye
+action 1:    look up
+action 2:    look down 
+action 3:    look left
+action 4:    look right
+action 5:    find something to look at
+*/
+ mechanicalEye.lookUp();        
+ mechanicalEye.lookDown();
+ mechanicalEye.lookLeft();
+ mechanicalEye.lookRight();
+ mechanicalEye.findAndFocus();
 /*
- 6)
- Noun:
- action 1:
- action 2:
- action 3:
- */
-
+5)  
+Noun:        desk
+action 1:    select drawer for action
+action 2:    open the drawer
+action 3:    close the drawer
+*/
+ desk.selectDrawer();
+ desk.openDrawer();             
+ desk.closeDrawer();
 /*
- 7)
- Noun:
- action 1:
- action 2:
- action 3:
- */
-
-
+6)
+Noun:      compressor
+action 1:  adjust the ratio up or down
+action 2:  adjust the attack up or down
+action 3:  adjust the release up or down
+action 4:  adjust the threshold up or down
+action 5:  adjust the bypass on or off
+*/
+compressor.adjustRatio();
+compressor.adjustAttack();
+compressor.adjustRelease();
+compressor.adjustThreshold();
+compressor.adjustBypassOnOff();
 /*
- 8)
- Noun:
- action 1:
- action 2:
- action 3:
- */
-
+7)
+Noun: minor scale
+action 1: play dorian mode
+action 2: play Phrygian mode
+action 3: play aeolian mode
+*/
+minorScale.playDorian();
+minorScale.playPhrygian();
+minorScale.playAeolian();
 /*
- 9)
- Noun:
- action 1:
- action 2:
- action 3:
- */
-
-
+8)
+Noun: major scale
+action 1: play ionian mode
+action 2: play lydian mode
+action 3: play lydian augmented
+*/
+majorScale.playIonian();
+majorScale.playLydian();
+majorScale.playLydianAugmented();
 /*
- 10)
- Noun:
- action 1:
- action 2:
- action 3:
- */
-
+9)  
+Noun:      trumpet 
+action 1:  move to appropriate slot
+action 2:  lower valve #1
+action 3:  lower valve #2
+action 4:  lower valve #3
+action 5:  play the note
+action 6:  reset slot and valves
+*/
+ trumpet.lowerValve1();
+ trumpet.lowerValve2();
+ trumpet.lowerValve3();
+ trumpet.lowerValve1();
+ trumpet.playCurrent();
+ trumpet.reset();
+/*
+10)
+Noun:  spaceShip
+action 1:  adjust current flight pitch
+action 2:  adjust current flight roll
+action 3:  adjust current flight yaw
+action 4:  accelerate to velocity
+action 5:  decelerate to velocity
+*/ 
+ spaceShip.adjustPitch();
+ spaceShip.adjustRoll();
+ spaceShip.adjustYaw();
+ spaceShip.accelerate();
+ spaceShip.decelerate();
 
 #endif
 
